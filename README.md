@@ -38,7 +38,7 @@ The project is divided into a few simple files.
 1. Download or clone the repository.
 
 ```bash
-git clone https://github.com/vxflame/Smart-AI-Support-Assistant.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/Smart-AI-Support-Last.git
 ```
 
 2. Open the project folder.
