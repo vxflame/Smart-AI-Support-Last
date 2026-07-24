@@ -4,15 +4,16 @@
 
 This project was developed as my final capstone project during my AI internship at Sohail Smart Solutions.
 
-The assistant can answer questions about the company, retrieve live weather information, and perform basic mathematical calculations. It also includes error handling and input validation to make the system more reliable.
+The assistant can answer basic questions about the company, provide live weather information, and solve mathematical calculations. It also includes input validation and error handling to make the program more reliable.
 
 ## Features
 
-- Company knowledge base
-- Live weather information using the Open-Meteo API
-- Basic calculator
-- AI-generated responses using the Gemini API
-- Error handling and input validation
+- Answers questions from a small company knowledge base
+- Provides live weather information
+- Solves basic mathematical calculations
+- Uses the Gemini API for natural responses
+- Handles empty or invalid input
+- Returns clear messages when an API is unavailable
 
 ## Technologies Used
 
@@ -22,18 +23,19 @@ The assistant can answer questions about the company, retrieve live weather info
 - Requests
 - GitHub
 
-## Project Structure
+## Project Files
 
-- **main.py** – Runs the AI assistant.
-- **knowledge_base.py** – Stores company information.
-- **tools.py** – Contains the weather and calculator tools.
-- **requirements.txt** – Lists the required Python libraries.
-- **.gitignore** – Excludes unnecessary files.
-- **README.md** – Project documentation.
+The project is divided into a few simple files.
+
+- **main.py** runs the assistant and connects all parts of the project.
+- **knowledge_base.py** stores the company information.
+- **tools.py** contains the weather and calculator functions.
+- **requirements.txt** lists the required Python libraries.
+- **.gitignore** prevents private or unnecessary files from being uploaded.
 
 ## How to Run
 
-1. Clone the repository.
+1. Download or clone the repository.
 
 ```bash
 git clone https://github.com/vxflame/Smart-AI-Support-Assistant.git
@@ -51,7 +53,11 @@ cd Smart-AI-Support-Last
 pip install -r requirements.txt
 ```
 
-4. Set your Gemini API key as an environment variable named `GEMINI_API_KEY`.
+4. Add your Gemini API key as an environment variable named:
+
+```text
+GEMINI_API_KEY
+```
 
 5. Run the project.
 
@@ -61,23 +67,38 @@ python main.py
 
 ## Example Questions
 
-- What services does Sohail Smart Solutions provide?
-- What is the weather in Dubai?
-- 35 * 18
+```text
+What services does Sohail Smart Solutions provide?
+```
 
-## Current Limitations
+```text
+What is the weather in Dubai?
+```
 
-- The knowledge base is limited.
-- Internet is required for the weather feature.
-- A Gemini API key is required.
-- The project runs in the terminal.
+```text
+35 * 18
+```
+
+## Limitations
+
+- The company knowledge base is small.
+- Internet access is required for the weather tool and Gemini API.
+- A valid Gemini API key is required for AI-generated answers.
+- The project currently runs in the terminal.
 
 ## Future Improvements
 
-- Expand the knowledge base.
-- Add more APIs.
-- Add conversation memory.
-- Build a web interface.
+- Add more company information
+- Add more external tools and APIs
+- Add conversation memory
+- Build a web interface
+- Improve the retrieval system
+
+## Author
+
+**Abdelrahaman Mohamed**
+
+AI Intern – Sohail Smart Solutions
 
 ## Author
 
