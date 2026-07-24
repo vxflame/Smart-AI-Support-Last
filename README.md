@@ -99,9 +99,3 @@ What is the weather in Dubai?
 **Abdelrahaman Mohamed**
 
 AI Intern – Sohail Smart Solutions
-
-## Author
-
-**Abdelrahaman mohamed**
-
-AI Intern – Sohail Smart Solutions
